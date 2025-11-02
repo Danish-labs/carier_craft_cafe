@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Craft Cafe - AI-Powered Career Ecosystem</title>
+    <meta name="description" content="Transform your career journey with AI-powered guidance, structured roadmaps, and verified opportunities. Building Careers, Crafting Futures." />
+    <meta name="author" content="Career Craft Cafe" />
+
+    <!-- Performance optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- DNS Prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/src/index.css" as="style" />
+    <link rel="preload" href="/src/main.tsx" as="script" type="module" />
+    
+    <!-- Meta tags -->
+    <meta property="og:title" content="Career Craft Cafe - Building Careers, Crafting Futures" />
+    <meta property="og:description" content="AI-powered ecosystem for career guidance, growth & opportunities. Discover your path, craft your roadmap, unlock opportunities." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <!-- Critical CSS inline -->
+    <style>
+      body { margin: 0; background: #12122B; }
+      #root { min-height: 100vh; }
+      .loading { 
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #12122B;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root">
+      <!-- Loading state -->
+      <div class="loading">
+        <svg viewBox="0 0 100 100" width="50" height="50">
+          <path
+            fill="#FFA21F"
+            d="M50 20 C40 20 30 30 30 45 C30 65 45 75 50 85 C55 75 70 65 70 45 C70 30 60 20 50 20Z"
+          />
+        </svg>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
